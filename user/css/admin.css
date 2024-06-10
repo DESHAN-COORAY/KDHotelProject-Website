@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.m-wrapper {
+  display: flex;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper1 {
+  padding: 1%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text_center {
+  text-align: center;
+}
+
+/* Navigation */
+.menu {
+  border-bottom: 1px salmon solid;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 2%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+.menu ul li a:hover {
+  color: tomato;
+}
+
+/* BUTTONS */
+
+.btn_primary {
+  text-decoration: none;
+  padding: 10px 12px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn_primary:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.btn_second {
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn_second:hover {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.btn_danger {
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn_danger:hover {
+  background-color: #c0392b;
+  color: #fff;
+}
+/* Main Content */
+
+.content {
+  /* background-color: #0995b4; */
+  margin: 50px;
+}
+
+.main_content h2 {
+  padding: 1%;
+}
+
+.col-4 {
+  width: 20%;
+  background-color: #fff;
+  margin: 1%;
+  padding: 2% 0;
+}
+
+.dashboard {
+  border: 1px salmon solid;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  width: 150px;
+}
+
+/* Message Colors start */
+
+.success {
+  color: #27ae60;
+}
+
+.error {
+  color: #c0392b;
+}
+
+/* Message Colors Ends */
+
+/* Login Form Start */
+
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+.login_form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  font-family: "Sansita Swashed", cursive;
+}
+
+.center {
+  position: relative;
+  padding: 50px 50px;
+  background: #fff;
+  border-radius: 10px;
+}
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.center .inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.center .inputbox [type="submit"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+.center .inputbox:hover [type="submit"] {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  cursor: pointer;
+}
+
+/* Login Form Ends */
+
+/* -------------------------------------- */
+
+/* Admin Table  Starts*/
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 20px 0 0 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* ADD ADMIN FORM START */
+
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+
+.form_w {
+  width: 470px;
+  height: 580px;
+}
+
+.form_w1 {
+  width: 470px;
+  height: 660px;
+}
+
+.form_w2 {
+  width: 550px;
+  height: 850px;
+}
+
+.form_w3 {
+  width: 550px;
+  height: 900px;
+}
+
+.form_large {
+  width: 650px;
+  height: 1000px;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #9092a1;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+.btn {
+  margin-top: 10px;
+}
+.btn_radio {
+  border: 1px #eee solid;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #15172b;
+  color: #fff;
+}
+
+.select {
+  border: 1px #eee solid;
+  margin-top: -10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #15172b;
+  color: #fff;
+}
+
+.select_lb {
+  margin-top: -10px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #15172b;
+  color: #fff;
+}
+
+.px-1 {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  margin: 0 10px;
+}
+
+.cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: #dc2f55;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  /* // outline: 0; */
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+/* bg videos */
+#myVideo {
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main_form {
+  display: flex;
+}
+
+.video {
+  width: 790px;
+  height: 530px;
+  margin-left: 450px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.video1 {
+  width: 790px;
+  height: 700px;
+  margin-left: 450px;
+  margin-top: 10px;
+  padding-top: 200px;
+  /* margin-bottom: 50px; */
+}
+
+.video2 {
+  width: 700px;
+  height: 600px;
+  margin-left: 650px;
+  /* margin-top: 10px; */
+  padding-top: 150px;
+  /* margin-bottom: 50px; */
+}
+
+/* ADD ADMIN FORM END */
