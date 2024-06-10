@@ -10,4 +10,4 @@ Front End Developer : Deshan Cooray
 Back End Developer : Deshan Cooray
 Used technologies : HTML, CSS, PHP, MySQL, JavaScript, jQuery, Bootstrap, Ajax
 
-https://github.com/DESHAN-COORAY/KDHotelProject-Website/assets/97680258/d8be1f79-8cf5-48b3-9c7e-581ba901d62a
+https://github.com/DESHAN-COORAY/KDHotelProject-Website/assets/97680258/d9a291da-4848-43bf-9c0e-93e207889fa3
