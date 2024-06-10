@@ -1,4 +1,11 @@
-If an error such as "Refused to display 'https://www.google.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'." occurs while running this project, 
-please add this extension to your browser and enable it before running the project.
+# KDHotelProject-Website
+I created this web application for online hotel reservations. This web application is primarily concerned with providing a better online customer experience.
 
-Ignore X-Frame headers -> https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe
+And, to introduce the simplest and safest way for each customer or user (ex: admin, KD Honour user, or viewer) to interact with KD Hotel based on their own behaviors and opinions.
+
+I was able to contribute all the parts of this project.
+
+UI/UX Designer : Deshan Cooray
+Front End Developer : Deshan Cooray
+Back End Developer : Deshan Cooray
+Used technologies : HTML, CSS, PHP, MySQL, JavaScript, jQuery, Bootstrap, Ajax
